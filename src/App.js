@@ -5,8 +5,10 @@ import HelloWorld from './component/HelloWorld';
 function App() {
   return (
     <div className="App">
-      <HelloWorld/>
-      <HelloAjay/>
+      <HelloWorld country="INDIA"/>
+      <HelloWorld country="POLAND"/>
+      <HelloAjay name="Priyanka"/>
+      <HelloAjay name="Bijoy"/>
     </div>
   );
 }

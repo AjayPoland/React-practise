@@ -1,10 +1,11 @@
 import React from 'react'
 
-const HelloWorld = () => {
+const HelloWorld = props=> {
   return (
     <div>
         <h1>Functional Component</h1>
-      <p>HelloWorld</p>
+      <p>HelloWorld, Representing: {props.country}</p>
+
     </div>
   )
 }
