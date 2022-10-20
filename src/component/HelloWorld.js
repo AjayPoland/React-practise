@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const HelloWorld = props=> {
+const HelloWorld = (props) => {
+  //destructing props.
+  const { creater, country } = props;
   return (
     <div>
-        <h1>Functional Component</h1>
-      <p>HelloWorld, Representing: {props.country}</p>
-
+      <h1>Functional Component</h1>
+      <p>
+        HelloWorld, Representing: {country} <br /> Creater: {creater}
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default HelloWorld
+export default HelloWorld;
