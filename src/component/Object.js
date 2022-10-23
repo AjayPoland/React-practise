@@ -42,7 +42,6 @@ export default function Object() {
   const str = object.display.call(person);
   const str1 = object.fullAddress.call(person, "Siliguri");
   const str2 = object.personBIO.apply(person,[26,"Male"]);
-  // const str3 = objBind.add.bind(numbers);
   const str3 = objBind.add.bind(numbers);
   return <div>
     <p>Using call method</p>
