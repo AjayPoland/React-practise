@@ -5,6 +5,7 @@ import Object from './component/Object';
 import HelloWorld from './component/HelloWorld';
 import Login from './component/Login';
 import Iterator from './component/Iterator';
+import SetDemo from './component/SetDemo';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Login/> */}
       {/* <MethodConstructor/>
       <Object/> */}
-      <Iterator/>
+      {/* <Iterator/> */}
+      <SetDemo/>
     </div>
   );
 }
